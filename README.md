@@ -17,4 +17,4 @@ Check out the frontend companion code [code here.](https://github.com/DashBarkHu
 ## Demo Video
 
 Watch how the front end and back end work together:
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_CZtTBHZn0o/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_CZtTBHZn0o/0.jpg)](https://www.youtube.com/watch?v=_CZtTBHZn0o)
