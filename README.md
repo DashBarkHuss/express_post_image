@@ -9,3 +9,12 @@ To use this project
 2. run `node server.js`
 
 3. [Upload an image in postman](https://stackoverflow.com/questions/39660074/post-image-data-using-postman#answer-39663104)
+
+## Frontend
+
+Check out the frontend companion code [code here.](https://github.com/DashBarkHuss/react-dropzone-sample)
+
+## Demo Video
+
+Watch how the front end and back end work together:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_CZtTBHZn0o/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)

@@ -13,20 +13,19 @@ const handleImage = (avatars) => async (req, res, next) => {
   return next();
 };
 const cors = require('cors');
+const bodyParser = require('body-parser');
 const ImageService = require('./services/ImageServices');
 
 const app = express();
-const bodyParser = require('body-parser');
 
 const images = new ImageService(config.data.images);
 
 app.use(bodyParser.json());
 app.use(cors());
-
 app.post('/image', upload.single('image'), handleImage(images), (req, res, next) => {
   if (req.file && req.file.storedFilename) {
-    // this we were save to user.avatar for example. remember to delete the image (images.delete(req.file.storedFileName)) if the user.save() errors
-    console.log(req.file.storedFilename);
+    // this is where we would save to user.avatar for example. remember to delete the image (images.delete(req.file.storedFileName)) if the user.save() throws an error
+    console.log(`this file was saved to to the server: ${req.file.storedFilename}`);
   }
   res.status(200).send('image uploaded');
 });
